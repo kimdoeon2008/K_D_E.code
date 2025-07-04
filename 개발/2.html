@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>게시글 목록</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: sans-serif;
+        background-color: #e0e0e0;
+      }
+
+      .header {
+        background-color: #a0d9b4;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+      }
+
+      .menu-button {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      .container {
+        max-width: 400px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+
+      .post-button {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+        padding: 10px;
+        border: 1px solid #999;
+        border-radius: 8px;
+        background-color: white;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      .pagination {
+        margin-top: 20px;
+      }
+
+      .page-number {
+        display: inline-block;
+        padding: 5px 10px;
+        border: 1px solid #999;
+        border-radius: 4px;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="menu-button">☰</div>
+      <div>Alyssum</div>
+    </div>
+
+    <div class="container">
+      <h2>게시글 목록</h2>
+
+      <button class="post-button">게시물 1</button>
+      <button class="post-button">게시물 2</button>
+      <button class="post-button">게시물 3</button>
+      <button class="post-button">게시물 4</button>
+      <button class="post-button">게시물 5</button>
+      <button class="post-button">게시물 6</button>
+      <button class="post-button">게시물 7</button>
+      <button class="post-button">게시물 8</button>
+      <button class="post-button">게시물 9</button>
+      <button class="post-button">게시물 10</button>
+
+      <div class="pagination">
+        <span class="page-number">1</span>
+      </div>
+    </div>
+  </body>
+</html>
