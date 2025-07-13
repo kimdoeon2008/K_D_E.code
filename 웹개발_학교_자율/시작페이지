@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>카테고리별 사이트 찾기</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        font-family: "Arial", sans-serif;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+
+      .top-bar {
+        background-color: #6a1b9a;
+        color: white;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 14px;
+      }
+
+      .main-section {
+        flex: 1;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .main-title {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 30px;
+      }
+
+      .start-button {
+        background-color: #6a1b9a;
+        color: white;
+        border: none;
+        padding: 12px 30px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .bottom-bar {
+        background-color: #6a1b9a;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 14px;
+      }
+
+      .name {
+        color: white;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="7.문의_페이지.html" class="top-bar" style="text-decoration: none"
+        >문의사항</a
+      >
+
+      <div class="main-section">
+        <div class="main-title">카테고리별 사이트 찾기</div>
+        <button
+          type="button"
+          class="start-button"
+          onclick="location.href='2.카테고리_페이지.html'"
+        >
+          시작하기
+        </button>
+      </div>
+
+      <div class="bottom-bar">21208 <a class="name" href="#">김도언</a></div>
+    </div>
+  </body>
+</html>
