@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>메뉴 화면</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+
+      body,
+      html {
+        height: 100%;
+        background-color: white;
+      }
+
+      header {
+        height: 60px;
+        background-color: #6a1b9a; /* 보라색 */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        color: white;
+      }
+
+      header .back {
+        font-size: 24px;
+        cursor: pointer;
+        color: white;
+        background-color: #6a1b9a;
+      }
+
+      header .inquiry {
+        font-size: 14px;
+        color: white;
+      }
+
+      .menu {
+        margin-top: 40px;
+        padding-left: 40px;
+        display: 100px;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .menu button {
+        background-color: #6a0dad;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 6px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .menu button:hover {
+        background-color: #6a1b9a;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <button
+        class="back"
+        type="button"
+        onclick="location.href='1.시작페이지.html'"
+      >
+        ⟵
+      </button>
+      <a class="inquiry" href="7.문의_페이지.html" style="text-decoration: none" style="color: white;">
+      
+      </style>
+        문의사항</a
+      >
+    </header>
+
+    <div class="menu">
+      <button onclick="location.href='3.검색엔진_페이지.html'">
+        검색 엔진
+      </button>
+      <br />
+      <br />
+      <br />
+      <button onclick="location.href='4.영상_페이지.html'">영상</button>
+      <br />
+      <br />
+      <br />
+      <button onclick="location.href='5.노래_페이지.html'">노래</button>
+      <br />
+      <br />
+      <br />
+      <button onclick="location.href='6.AI_페이지.html'">AI</button>
+    </div>
+  </body>
+</html>
